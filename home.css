@@ -1,0 +1,209 @@
+.content-box {
+    text-align: center;
+}
+
+#frontIMG {
+    width: 50%;
+    height: 75%;
+}
+
+#disc{
+    width: 100% auto;
+}
+
+.syp{
+    border: 5px yellow solid;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.syp img{
+    width: 50%;
+    height: 75%;
+}
+
+.syp legend{
+    border: 5px yellow solid;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.syp legend:hover{
+    background-color: yellow;
+}
+
+.map{
+    border: 5px yellow solid;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.map legend{
+    border: 5px yellow solid;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: lightblue;
+}
+
+.map legend:hover{
+    background-color: yellow;
+}
+
+@media screen and (max-width: 1000px) {
+    .map img{
+        visibility: hidden;
+    }
+    .map{
+        background-image: url("images/enlarge.png");
+        background-size: cover;
+    }
+}
+
+
+/* Characters */
+.pop{
+    height: 180px auto;
+    border: 5px yellow solid;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+  
+.pop legend{
+    border: 5px yellow solid;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+  
+.pop legend:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+  
+.container-pop{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.mini-box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    transition: transform 0.5s;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+  
+.mini-box:hover{
+    transform: scale(1.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.noah{
+    width: 100px;
+    height: 100px;
+    border: 3px blue solid;
+    background-size: cover;
+    background-image: url("images/noahhome.png");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#noah{
+    width: 106px;
+    background-color: blue;
+    color: white;
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+  
+.furi{
+    width: 100px;
+    height: 100px;
+    border: 3px black solid;
+    background-size: cover;
+    background-image: url("images/furi.png");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#furi{
+    width: 106px;
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+  
+.ira{
+    width: 100px;
+    height: 100px;
+    border: 3px pink solid;
+    background-size: cover;
+    background-image: url("images/ira.png");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#ira{
+    width: 106px;
+    background-color: pink;
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.eri{
+    width: 100px;
+    height: 100px;
+    border: 3px purple solid;
+    background-size: cover;
+    background-image: url("images/eri.webp");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#eri{
+    width: 106px;
+    background-color: purple;
+    color: red;
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.anna{
+    width: 100px;
+    height: 100px;
+    border: 3px gold solid;
+    background-size: cover;
+    background-image: url("images/anna.png");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#anna{
+    width: 105px;
+    background-color: gold;
+    color: blue;
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}

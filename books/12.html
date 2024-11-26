@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volume 12</title>
+    <link rel="stylesheet" href="vol.css">
+    <link rel="stylesheet" href="../setup.css">
+    <style>
+        body{
+            background-image: url("../images/ice world.jpg");
+            background-size: cover;
+        }
+
+        .image-left{
+            background-image: url("../images/chars/noahRich!back.png");
+            background-size: cover;
+            height: 110%;
+        }
+
+        .image-right{
+            background-image: url("../images/chars/sensei!back.png");
+            background-size: cover;
+        }
+
+        h1{
+            color: red;
+        }
+
+        .content-box, fieldset, legend{
+            border: 5px pink solid;
+        }
+
+        #myImg{
+            border: 5px pink solid;
+            border-radius: 10px;
+        }
+
+        legend:hover{
+            background-color: pink ;
+            color: red;
+        }
+
+        a{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="hovertop">
+        <div class="top-bar">
+            <div class="logo"><img src="../images/goddess top.webp"></div>
+            <nav>
+                <ul>
+                    <li id="home">
+                        <a href="../home.html">Home</a>
+                    </li>
+
+                    <li id="abt">
+                        <a href="../about.html">About</a>
+                    </li>
+
+                    <li id="char">
+                        <a href="../characters.html">Characters</a>
+                        <table class="dropdown-table" id="topchar">
+                            <tr>
+                                <td>Main Character</td>
+                                <td>
+                                    <table class="subchar" id="main">
+                                        <tr><td><a href="../characters/makoto.html">Takatsuki Makoto</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Gods</td>
+                                <td>
+                                    <table class="subchar" id="gods">
+                                        <tr><td><a href="../characters/noah.html">Noah Titan</a></td></tr>
+                                        <tr><td><a href="../characters/eir.html">Eir Olympus</a></td></tr>
+                                        <tr><td><a href="../characters/althena.html">Althena Olympus</a></td></tr>
+                                        <tr><td><a href="../characters/ira.html">Ira Olyimpus</a></td></tr>
+                                        <tr><td><a href="../characters/naia.html">Nyarlathotep</a></td></tr>
+                                        <tr><td><a href="../characters/iblis.html">Iblis</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Kings</td>
+                                <td>
+                                    <table class="subchar" id="kings">
+                                        <tr><td><a href="../characters/varvartos.html">Varvartos</a></td></tr>
+                                        <tr><td><a href="../characters/eriynes.html">Eriynes</a></td></tr>
+                                        <tr><td><a href="../characters/astaroth.html">Astaroth</a></td></tr>
+                                        <tr><td><a href="../characters/zagan.html">Zagan</a></td></tr>
+                                        <tr><td><a href="../characters/bifrons.html">Bifrons</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Heros</td>
+                                <td>
+                                    <table class="subchar" id="heros">
+                                        <tr><td><a href="../characters/geralt.html">Geralt Valentine</a></td></tr>
+                                        <tr><td><a href="../characters/leonard.html">Leonard Eir Rozes</a></td></tr>
+                                        <tr><td><a href="../characters/olga.html">Olga Sole Talisker</a></td></tr>
+                                        <tr><td><a href="../characters/alexander.html">Alexander</a></td></tr>
+                                        <tr><td><a href="../characters/johnny.html">Johnny Walker</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Oracles</td>
+                                <td>
+                                    <table class="subchar" id="oracles">
+                                        <tr><td><a href="../characters/sofia.html">Sofia Eir Rozes</a></td></tr>
+                                        <tr><td><a href="../characters/anna.html">Anna Highland</a></td></tr>
+                                        <tr><td><a href="../characters/noel.html">Noel Highland</a></td></tr>
+                                        <tr><td><a href="../characters/esther.html">Esther</a></td></tr>
+                                        <tr><td><a href="../characters/furi.html">Furiae Naia Laphroaig</a></td></tr>
+                                        <tr><td><a href="../characters/nevia.html">Nevia Naia Laphroaig</a></td></tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Other</td>
+                                <td>
+                                    <table class="subchar" id="mortals">
+                                        <tr><td><a href="../characters/momo.html">Momo</a></td></tr>
+                                        <tr><td><a href="../characters/aya.html">Sasaki Aya</a></td></tr>
+                                        <tr><td><a href="../characters/lucy.html">Lucy Walker</a></td></tr>
+                                        <tr><td><a href="../characters/mel.html">Helemerck</a></td></tr>
+                                        <tr><td><a href="../characters/dia.html">Dia</a></td></tr>
+                                        <tr><td><a href="../characters/cain.html">Cain</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+
+                    <li id="books">
+                        <a href="../books.html">Books</a>
+                        <table class="dropdown-table" id="top-vol">
+                            <tr>
+                                <td><a href="../books/1.html">Volume 1</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/2.html">Volume 2</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/3.html">Volume 3</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/4.html">Volume 4</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/5.html">Volume 5</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/6.html">Volume 6</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/7.html">Volume 7</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/8.html">Volume 8</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/9.html">Volume 9</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/10.html">Volume 10</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/11.html">Volume 11</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/12.html">Volume 12</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/13.html">Volume 13</a></td>
+                            </tr>
+                        </table>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="search-container">
+                <form>
+                    <input type="search" id="search-input" placeholder="Search">
+                    <button id="search-btn">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+
+        <div class="image-left"></div>
+        <div class="image-right"></div>
+        <div class="content-box">
+            <h1><a href="11.html"><b><</b></a> Volume 12 <a href="13.html"><b>></b></a></h1>
+
+            <img class="clickable-image" src="../images/volumes/vol12.png" id="myImg">
+
+            <div id="myModal" class="modal">
+              <span class="close">&times;</span>
+              <img class="modal-content" id="img01">
+            </div>
+
+            <fieldset>
+                <legend><h2>Sypnosis</h2></legend>
+                <p>
+                    <a href="../characters/makoto.html">Makoto Takatsuki</a> has awakened! 
+                    After his triumph over the <a href="../characters/iblis.html">Great Demon Lord</a> a thousand years in the past, <a href="../characters/makoto.html">Makoto</a> has finally returned to the present. 
+                    His closest friends and companions have grown a lot in the year he was absent: <a href="../characters/lucy.html">Lucy</a> and <a href="../characters/aya.html">Sasa</a> are famed adventurers, <a href="../characters/furi.html">Furiae</a> is leading Laphroaig as the Saint of Miracles, 
+                    and <a href="../characters/noah.html">Noah</a> has been elevated to the eighth goddess of the pantheon! 
+                    Unfortunately, just as <a href="../characters/makoto.html">Makoto</a> is settling back into his old life, he receives some devastating news—the <a href="../characters/iblis.html">Great Demon Lord</a> and the <a href="../characters/nevia.html">Witch of Calamity</a> have revived! 
+                    While the Seven Nation Alliance prepares for the final confrontation with <a href="../characters/iblis.html">Iblis</a>, <a href="../characters/makoto.html">Makoto</a> reunites with his goddess after their long separation. 
+                    She offers him a cryptic message, and he’ll have to work out what she truly means, even as the fuse is lit on the final battle for the fate of humanity!
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Chapters</h2></legend>
+                <ul>
+                    <li>Prologue: Reunion</li>
+                    <li>Chapter 1: Makoto Takatsuki Reunites with Friends</li>
+                    <li>Chapter 2: Makoto Takatsuki is Confused</li>
+                    <li>Chapter 3: Makoto Takatsuki Reunites with the Goddess</li>
+                    <li>Chapter 4: Makoto Takatsuki Participates in the War Council</li>
+                    <li>Chapter 5: Makoto Takatsuki Being Lectured</li>
+                    <li>Intermission: Party's Threat of Disbanding</li>
+                    <li>Chapter 6: Makoto Takatsuki Visits the Frontline Base</li>
+                    <li>Chapter 7: Makoto Takatsuki Speaks to the Hero</li>
+                    <li>Chapter 8: Makoto Takatsuki Fights the Strongest Demon Lord</li>
+                    <li>Epilogue: Breaking News</li>
+                    <li>Afterword</li>
+                    <li>Bonus Short Stories</li>
+                    <ul>
+                        <li>Spirit User and the White Sage</li>
+                    </ul>
+                </ul>
+            </fieldset>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2><a href="../about.html">About Us</a></h2>
+                <p>NOAH FOREVER</p>
+            </div>
+            <div class="footer-center">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="../home.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../characters.html">Characters</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><a href="https://x.com/Featcrazyball1" target="_blank"><i class="link"></i> Twitter</a></li>
+                    <li><a href="https://www.instagram.com/featcrazyball/" target="_blank"><i class="link"></i> Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../set.js"></script>
+</body>
+</html>

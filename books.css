@@ -1,0 +1,204 @@
+#godschar{
+    margin-top: 30px;
+    border: 5px yellow solid;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    background: rgb(110, 206, 250);
+}
+
+#godschar legend{
+    margin-top: 30px;
+    border: 5px yellow solid;
+    border-radius: 10px;
+    background-color: lightblue; 
+    font-size: 48px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#godschar legend:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+.name{
+    text-align: center;
+    font-size: 21px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 210px;
+}
+
+.container-pop{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.mini-box{
+    width: 200px;
+    height: 250px;
+    margin: 35px;
+    transition: transform 0.5s;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+  
+.mini-box:hover{
+    transform: scale(1.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.book{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-size: cover;
+}
+
+.vol1{
+    border: 5px blue solid;
+    background-image: url("images/volumes/vol1.webp");
+}
+
+#vol1{
+    background-color: blue;
+    color: white;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.vol2{
+    border: 5px crimson solid;
+    background-image: url("images/volumes/vol2.webp");
+}
+
+#vol2{
+    background-color: crimson;
+    color: white;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+.vol3{
+    border: 5px brown solid;
+    background-image: url("images/volumes/vol3.webp");
+}
+
+#vol3{
+    background-color: brown;
+    color: white;
+    margin-top: 0;
+    text-decoration: none;
+}
+  
+.vol4{
+    border: 5px aqua solid;
+    background-image: url("images/volumes/vol4.webp");
+}
+
+#vol4{
+    background-color: aqua;
+    color: blue;
+}
+  
+.vol5{
+    border: 5px black solid;
+    background-image: url("images/volumes/vol5.webp");
+}
+
+#vol5{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+  
+.vol6{
+    border: 5px rgb(4, 248, 4) solid;
+    background-image: url("images/volumes/vol6.webp");
+}
+
+#vol6{
+    background-color: rgb(4, 248, 4);
+    color: red;
+}
+  
+.vol7{
+    border: 5px red solid;
+    background-image: url("images/volumes/vol7.webp");
+}
+
+#vol7{
+    background-color: red;
+    color: lightblue;
+}
+  
+.vol8{
+    border: 5px grey solid;
+    background-image: url("images/volumes/vol8.webp");
+}
+
+#vol8{
+    background-color: grey;
+    color: blue;
+}
+  
+.vol9{
+    border: 5px rgb(202, 4, 202) solid;
+    background-image: url("images/volumes/vol9.webp");
+}
+
+#vol9{
+    background-color: rgb(202, 4, 202);
+    color: white;
+    margin-top: 0;
+}
+  
+.vol10{
+    border: 5px white solid;
+    background-image: url("images/volumes/vol10.webp");
+}
+
+#vol10{
+    background-color: white;
+    color: red;
+}
+  
+.vol11{
+    border: 5px black solid;
+    background-image: url("images/volumes/vol11.jpg");
+}
+
+#vol11{
+    background-color: black;
+    color: red;
+    margin-top: 0;
+}
+  
+.vol12{
+    border: 5px pink solid;
+    background-image: url("images/volumes/vol12.png");
+}
+
+#vol12{
+    background-color: pink;
+    color: red;
+}
+
+.mini-box img{
+    width: 200px;
+    height: 125px;
+    border: 5px black solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 0;
+}
+
+#vol13{
+    background-color: black;
+    color: red;
+}

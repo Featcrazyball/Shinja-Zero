@@ -1,0 +1,506 @@
+/* Main */
+.popMain {
+    position: relative;
+    flex: 1;
+    border: 5px solid #3498db;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    background-image: url("images/ocean.webp");
+    background-size: cover;
+}
+
+.popMain legend {
+    border: 5px solid blue;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.popMain legend:hover {
+    background-color: #f7dc6f;
+    color: blue;
+    cursor: pointer;
+}
+
+.container-popMain {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mini-boxMain{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    transition: transform 0.5s;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+  
+.mini-boxMain:hover, .mini-box:hover{
+    transform: scale(1.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.makoto{
+    width: 200px;
+    height: 200px;
+    border: 5px blue solid;
+    background-size: cover;
+    background-image: url("images/chars/spiritking.png");
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#makoto{
+    width: 210px;
+    background-color: blue;
+    color: white;
+    margin-top: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-decoration: none;
+}
+
+#mainchar{
+    height: 325px;
+    border: 5px blue solid;
+    border-radius: 10px;
+    background-image: url("images/ice world.jpg");
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    width: 135px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.character{
+    width: 125px;
+    height: 125px;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* Gods */
+#godschar{
+    margin-top: 30px;
+    border: 5px yellow solid;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-image: url("images/heaven.jpg");
+    background-size: cover;
+}
+
+#godschar legend{
+    margin-top: 30px;
+    border: 5px yellow solid;
+    border-radius: 10px;
+}
+
+#godschar legend:hover{
+    background-color: yellow;
+    color: rgb(255, 0, 191);
+}
+
+.container-pop{
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+  
+.mini-box{
+    width: 125px;
+    height: 125px;
+    margin: 35px;
+    transition: transform 0.5s;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+  
+.mini-box:hover{
+    transform: scale(1.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.noah{
+    border: 5px blue solid;
+    background-image: url("images/noahhome.png");
+}
+
+#noah{
+    background-color: blue;
+    color: white;
+}
+  
+.athena{
+    border: 5px gold solid;
+    background-image: url("images/chars/Athena.jpg");
+}
+
+#athena{
+    background-color: gold;
+    color: black;
+}
+  
+.ira{
+    border: 5px pink solid;
+    background-image: url("images/ira.png");
+}
+
+#ira {
+    background-color: pink;
+    color: black;
+}
+
+.eir{
+    border: 5px aqua solid;
+    background-image: url("images/chars/eir.png");
+}
+
+#eir{
+    background-color: aqua;
+    color: darkblue;
+}
+
+.naia{
+    border: 5px purple solid;
+    background-image: url("images/noimage.png");
+}
+
+#naia{
+    background-color: purple;
+    color: white;
+}
+
+.iblis{
+    border: 5px black solid;
+    background-image: url("images/chars/iblis.png");
+}
+
+#iblis{
+    background-color: black;
+    color: white;
+}
+
+/* Kings */
+#kingschar{
+    margin-top: 30px;
+    border: 5px black solid;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-image: url("images/The_Hell.webp");
+}
+
+#kingschar legend{
+    margin-top: 30px;
+    border: 5px black solid;
+    border-radius: 10px;
+}
+
+#kingschar legend:hover{
+    background-color: black;
+    color: red;
+}
+
+.zagan{
+    border: 5px brown solid;
+    background-image: url("images/noimage.png");
+}
+
+#zagan{
+    background-color: brown;
+    color: white;
+}
+
+.asta{
+    border: 5px black solid;
+    background-size: cover;
+    background-image: url("images/chars/astabox.png");
+}
+
+#asta{
+    background-color: black;
+    color: red;
+}
+  
+.var{
+    border: 5px rgb(36, 46, 46) solid;
+    background-image: url("images/noimage.png");
+}
+
+#var{
+    background-color: rgb(36, 46, 46);
+    color: white;
+}
+
+.eri{
+    border: 5px purple solid;
+    background-image: url("images/eri.webp");
+}
+
+#eri{
+    background-color: purple;
+    color: red;
+}
+
+.bifrons{
+    border: 5px #880808 solid;
+    background-image: url("images/chars/bifrons.png");
+}
+
+#bifrons{
+    background-color: #880808;
+    color: white;
+}
+
+/* Heros */
+#heroschar{
+    margin-top: 30px;
+    border: 5px yellow solid;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-image: url("images/xianyu.jpg");
+    background-size: cover;
+}
+
+#heroschar legend{
+    margin-top: 30px;
+    border: 5px yellow solid;
+    border-radius: 10px;
+}
+
+#heroschar legend:hover{
+    background-color: blue;
+    color: red;
+}
+
+.gera{
+    border: 5px yellow solid;
+    background-image: url("images/chars/gera.jpg");
+}
+
+#gera{
+    width: 135px;
+    background-color: yellow;
+    color: black;
+    margin-top: 0;
+}
+
+.leo{
+    border: 5px aqua solid;
+    background-image: url("images/chars/leo.jpg");
+}
+
+#leo{
+    background-color: aqua;
+    color: darkblue;
+}
+  
+.olga{
+    border: 5px red solid;
+    background-image: url("images/chars/olga.png");
+}
+
+#olga{
+    background-color: red;
+    color: white;
+}
+
+.alex{
+    border: 5px gold solid;
+    background-image: url("images/chars/alex.png");
+}
+
+#alex{
+    background-color: gold;
+    color: blue;
+}
+
+.john{
+    border: 5px rgb(0, 243, 0) solid;
+    background-image: url("images/chars/john.png");
+}
+
+#john{
+    background-color: rgb(0, 243, 0);
+    color: black;
+}
+
+legend{
+    background-color: lightblue;
+}
+
+.sofia{
+    border: 5px aqua solid;
+    background-image: url("images/chars/sofiaSuit.png");
+}
+
+#sofia{
+    background-color: aqua;
+    color: darkblue;
+}
+
+.anna{
+    border: 5px gold solid;
+    background-image: url("images/anna.png");
+}
+
+#anna{
+    background-color: gold;
+    color: blue;
+}
+  
+.noel{
+    border: 5px yellow solid;
+    background-image: url("images/chars/noel.jpg");
+}
+
+#noel{
+    background-color: yellow;
+    color: black;
+}
+
+.furiae{
+    border: 5px black solid;
+    background-image: url("images/furi.png");
+}
+
+#furiae{
+    background-color: black;
+    color: white;
+}
+
+.esther{
+    border: 5px yellow solid;
+    background-image: url("images/chars/esther.png");
+}
+
+#esther{
+    background-color: yellow;
+    color: rgb(250, 39, 239);
+}
+
+.nevia{
+    border: 5px purple solid;
+    background-image: url("images/chars/nevia.png");
+}
+
+#nevia{
+    background-color: purple;
+    color: white;
+}
+
+.sakurai{
+    border: 5px gold solid;
+    background-image: url("images/chars/sakurai.png");
+}
+
+#sakurai{
+    background-color: gold;
+    color: blue;
+}
+
+.abel{
+    border: 5px gold solid;
+    background-image: url("images/questionmark.jpg");
+}
+
+#abel{
+    background-color: gold;
+    color: blue;
+}
+
+/* Others */
+#otherschar{
+    margin-top: 30px;
+    border: 5px pink solid;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-image: url("images/sunset.jpg");
+    background-size: cover;
+}
+
+#otherschar legend{
+    margin-top: 30px;
+    border: 5px pink solid;
+    border-radius: 10px;
+}
+
+#otherschar legend:hover{
+    background-color: blue;
+    color: black;
+}
+
+.momo{
+    border: 5px white solid;
+    background-image: url("images/chars/momo1.jpg");
+}
+
+#momo{
+    background-color: white;
+    color: red;
+}
+
+.aya{
+    border: 5px brown solid;
+    background-image: url("images/chars/sasaki.png");
+}
+
+#aya{
+    background-color: brown;
+    color: white;
+}
+
+.lucy{
+    border: 5px crimson solid;
+    background-image: url("images/chars/lucychar.png");
+}
+
+#lucy{
+    background-color: crimson;
+    color: blue;
+}
+
+.mel{
+    border: 5px white solid;
+    background-image: url("images/chars/mel.png");
+}
+
+#mel{
+    background-color: white;
+    color: black;
+}
+
+
+.dia{
+    border: 5px blue solid;
+    background-image: url("images/chars/dia.png");
+}
+
+#dia{
+    background-color: blue;
+    color: aqua;
+}
+
+.cain{
+    border: 5px black solid;
+    background-image: url("images/chars/cain.png");
+}
+
+#cain{
+    background-color: black;
+    color: red;
+}

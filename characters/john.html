@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Johnny Walker</title>
+    <link rel="stylesheet" href="../setup.css">
+    <link rel="stylesheet" href="1char.css">
+    <style>
+        body{
+            background-image: url("../images/sky.webp");
+            background-size: cover;
+        }
+
+        .image-left{
+            background-image: url("../images/chars/anna!back.png");
+            background-size: cover;
+        }
+
+        .image-right{
+            background-image: url("../images/chars/MaidMomo.png");
+            background-size: cover;
+        }
+
+        h1, b{
+            color: rgb(7, 97, 7);
+        }
+
+        .content-box, fieldset, legend{
+            border: 5px rgb(0, 255, 0) solid;
+        }
+
+        #myImg{
+            border: 5px rgb(0, 255, 0) solid;
+            border-radius: 10px;
+        }
+
+        legend:hover{
+            background-color: rgb(0, 255, 0);
+            color: brown;
+        }
+
+        :root {
+            --primary-color: rgb(0, 255, 0);
+        }
+
+        th{
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div class="hovertop">
+        <div class="top-bar">
+            <div class="logo"><img src="../images/goddess top.webp"></div>
+            <nav>
+                <ul>
+                    <li id="home">
+                        <a href="../home.html">Home</a>
+                    </li>
+
+                    <li id="abt">
+                        <a href="../about.html">About</a>
+                    </li>
+
+                    <li id="char">
+                        <a href="../characters.html">Characters</a>
+                        <table class="dropdown-table" id="topchar">
+                            <tr>
+                                <td>Main Character</td>
+                                <td>
+                                    <table class="subchar" id="main">
+                                        <tr><td><a href="../characters/makoto.html">Takatsuki Makoto</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Gods</td>
+                                <td>
+                                    <table class="subchar" id="gods">
+                                        <tr><td><a href="../characters/noah.html">Noah Titan</a></td></tr>
+                                        <tr><td><a href="../characters/eir.html">Eir Olympus</a></td></tr>
+                                        <tr><td><a href="../characters/althena.html">Althena Olympus</a></td></tr>
+                                        <tr><td><a href="../characters/ira.html">Ira Olyimpus</a></td></tr>
+                                        <tr><td><a href="../characters/naia.html">Nyarlathotep</a></td></tr>
+                                        <tr><td><a href="../characters/iblis.html">Iblis</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Kings</td>
+                                <td>
+                                    <table class="subchar" id="kings">
+                                        <tr><td><a href="../characters/varvartos.html">Varvartos</a></td></tr>
+                                        <tr><td><a href="../characters/eriynes.html">Eriynes</a></td></tr>
+                                        <tr><td><a href="../characters/astaroth.html">Astaroth</a></td></tr>
+                                        <tr><td><a href="../characters/zagan.html">Zagan</a></td></tr>
+                                        <tr><td><a href="../characters/bifrons.html">Bifrons</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Heros</td>
+                                <td>
+                                    <table class="subchar" id="heros">
+                                        <tr><td><a href="../characters/geralt.html">Geralt Valentine</a></td></tr>
+                                        <tr><td><a href="../characters/leonard.html">Leonard Eir Rozes</a></td></tr>
+                                        <tr><td><a href="../characters/olga.html">Olga Sole Talisker</a></td></tr>
+                                        <tr><td><a href="../characters/alexander.html">Alexander</a></td></tr>
+                                        <tr><td><a href="../characters/johnny.html">Johnny Walker</a></td></tr>
+                                        <tr><td><a href="../characters/sakurai.html">Sakurai Ryousuke</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Oracles</td>
+                                <td>
+                                    <table class="subchar" id="oracles">
+                                        <tr><td><a href="../characters/sofia.html">Sofia Eir Rozes</a></td></tr>
+                                        <tr><td><a href="../characters/anna.html">Anna Highland</a></td></tr>
+                                        <tr><td><a href="../characters/noel.html">Noel Highland</a></td></tr>
+                                        <tr><td><a href="../characters/esther.html">Esther</a></td></tr>
+                                        <tr><td><a href="../characters/furi.html">Furiae Naia Laphroaig</a></td></tr>
+                                        <tr><td><a href="../characters/nevia.html">Nevia Naia Laphroaig</a></td></tr>
+
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Other</td>
+                                <td>
+                                    <table class="subchar" id="mortals">
+                                        <tr><td><a href="../characters/momo.html">Momo</a></td></tr>
+                                        <tr><td><a href="../characters/aya.html">Sasaki Aya</a></td></tr>
+                                        <tr><td><a href="../characters/lucy.html">Lucy Walker</a></td></tr>
+                                        <tr><td><a href="../characters/mel.html">Helemerck</a></td></tr>
+                                        <tr><td><a href="../characters/dia.html">Dia</a></td></tr>
+                                        <tr><td><a href="../characters/cain.html">Cain</a></td></tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </li>
+
+                    <li id="books">
+                        <a href="../books.html">Books</a>
+                        <table class="dropdown-table" id="top-vol">
+                            <tr>
+                                <td><a href="../books/1.html">Volume 1</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/2.html">Volume 2</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/3.html">Volume 3</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/4.html">Volume 4</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/5.html">Volume 5</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/6.html">Volume 6</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/7.html">Volume 7</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/8.html">Volume 8</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/9.html">Volume 9</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/10.html">Volume 10</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/11.html">Volume 11</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/12.html">Volume 12</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="../books/13.html">Volume 13</a></td>
+                            </tr>
+                        </table>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="search-container">
+                <form>
+                    <input type="search" id="search-input" placeholder="Search">
+                    <button id="search-btn">Search</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+
+        <div class="image-left"></div>
+        <div class="image-right"></div>
+        <div class="content-box">
+            <h1>Johnny Walker</h1>
+            <img class="clickable-image" src="../images/chars/john.png" id="myImg">
+
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+            </div>
+            <br>
+            <br>
+            <table class="character-table">
+                <tr class="header-row">
+                    <th>Age</th>
+                    <th>Titles</th>
+                    <th>Race</th>
+                </tr>
+                <tr class="data-row">
+                    <td>250~ years old</td>
+                    <td>
+                        <ul class="title-list">
+                            <li>Nil</li>
+                        </ul>
+                    </td>
+                    <td>Elf</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <fieldset>
+                <legend><h2>About</h2></legend>
+                <p>
+                    An extremely handsome elf with over 50 wives and many daugters. <b>Johnny</b> is also part of <a href="makoto.html">Makoto</a>'s party 1000 years ago.
+                </p>
+            </fieldset>
+            <br><br>
+            <fieldset>
+                <legend><h2>Skills/Abilities</h2></legend>
+                <ul class="skills-list">
+                    <li>Spirit Magic</li>
+                    <li>Wind Magic</li>
+                    <li>Wood Magic</li>
+                    <li>Swordsmanship</li>
+                </ul>
+            </fieldset>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2><a href="../about.html">About Us</a></h2>
+                <p>NOAH FOREVER</p>
+            </div>
+            <div class="footer-center">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="../home.html">Home</a></li>
+                    <li><a href="../about.html">About</a></li>
+                    <li><a href="../characters.html">Characters</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><a href="https://x.com/Featcrazyball1" target="_blank"><i class="link"></i> Twitter</a></li>
+                    <li><a href="https://www.instagram.com/featcrazyball/" target="_blank"><i class="link"></i> Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="../set.js"></script>
+</body>
+</html>
